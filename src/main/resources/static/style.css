@@ -1,0 +1,51 @@
+/* Стили для контейнера */
+body, html {
+    height: 100%;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Algerian, sans-serif;
+}
+.register
+{
+    width: 100%;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    border-radius: 4px;
+    max-width: 140px;
+    text-align: center;
+    margin-top: 5px;
+    margin-left: 65px;
+    margin-bottom: 40px;
+    background: skyblue;
+}
+.container {
+    text-align: center;
+    padding: 20px;
+    border: 1px solid #2d9a9a;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    max-width: 600px;
+    width: 100%;
+}
+
+/* Стили для таблицы */
+table {
+    width: 100%;
+    margin-top: 20px;
+    border-collapse: collapse;
+}
+
+table, th, td {
+    border: 1px solid #2d95b1;
+    padding: 8px;
+}
+
+th {
+    background-color: #d31515;
+    text-align: center;
+}
+
+td {
+    text-align: center;
+}
